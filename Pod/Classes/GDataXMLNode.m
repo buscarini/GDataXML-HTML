@@ -780,7 +780,7 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
                         // _def_ns
                         const xmlChar* prefix = nsPtr->prefix;
                         if (prefix == NULL) {
-                            prefix = (xmlChar*) kGDataXMLXPathDefaultNamespacePrefix;
+                            prefix = (xmlChar*) kGDataXMLXPathDefaultNamespacePrefix1;
                         }
                         
                         int result = xmlXPathRegisterNs(xpathCtx, prefix, nsPtr->href);

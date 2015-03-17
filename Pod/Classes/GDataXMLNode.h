@@ -67,7 +67,7 @@
 
 // when no namespace dictionary is supplied for XPath, the default namespace
 // for the evaluated tree is registered with the prefix _def_ns
-_EXTERN const char* kGDataXMLXPathDefaultNamespacePrefix _INITIALIZE_AS("_def_ns");
+_EXTERN const char* kGDataXMLXPathDefaultNamespacePrefix1 _INITIALIZE_AS("_def_ns");
 
 // Nomenclature for method names:
 //
